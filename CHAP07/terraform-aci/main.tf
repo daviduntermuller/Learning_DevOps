@@ -7,7 +7,7 @@ terraform {
 
 resource "azurerm_resource_group" "acidemobook" {
   name     = "demoBook"
-  location = "westus2"
+  location = "westeurope"
 }
 
 variable "imageversion" {
