@@ -1,4 +1,4 @@
-resource_group_name  = "MyRgRemoteBackend"
-storage_account_name = "storageremotetf"
+resource_group_name  = "MyRemoteBackend"
+storage_account_name = "storageremote"
 container_name       = "tfbackends"
 key                  = "aci-demo.tfstate"
