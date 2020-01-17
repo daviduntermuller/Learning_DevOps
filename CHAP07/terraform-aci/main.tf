@@ -7,7 +7,7 @@ terraform {
 
 resource "azurerm_resource_group" "acidemobook" {
   name     = "demoBook"
-  location = "westeurope"
+  location = "West Europe"
 }
 
 variable "imageversion" {
@@ -24,7 +24,7 @@ resource "azurerm_container_group" "aci-myapp" {
   location            = "West Europe"
   resource_group_name = azurerm_resource_group.acidemobook.name
   ip_address_type     = "public"
-  dns_name_label      = "myapp-demo"
+  dns_name_label      = "myapp-demo-123542354"
   os_type             = "linux"
   container {
     name   = "myappdemo"
